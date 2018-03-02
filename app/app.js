@@ -6,6 +6,7 @@ angular.module('myApp', [
   'ui.router'
 ]).
 run(function($rootScope){
+  $rootScope.home = true;
   $rootScope.cards = [
     {
       "id": 1,
@@ -44,7 +45,7 @@ run(function($rootScope){
 
 }).
 controller('loginCtrl', ['$scope',  '$state', '$rootScope', function($scope,  $state, $rootScope){
-
+  $rootScope.home = false;
   $scope.user = {
     "name": "",
     "password": ""
