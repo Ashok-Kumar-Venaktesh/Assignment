@@ -75,10 +75,10 @@ controller('registerCtrl', ['$scope',  '$state', '$rootScope', function($scope, 
 
   $scope.register = function(){
     if ($scope.user.password == $scope.user.confirm_password){
-      $rootScope.USERNAME = $scope.user.password;
+      $rootScope.USERNAME = $scope.user.name;
       $rootScope.PASSWORD = $scope.user.confirm_password;
       console.log("Registration successful");
-      $state.go('cards');
+      $state.go('login');
     }
     else{
       console.log("Registration failed");
