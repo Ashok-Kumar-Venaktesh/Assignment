@@ -66,7 +66,7 @@ controller('loginCtrl', ['$scope',  '$state', '$rootScope', function($scope,  $s
   }
 }]).
 controller('registerCtrl', ['$scope',  '$state', '$rootScope', function($scope,  $state, $rootScope){
-
+  $rootScope.home = false;
   $scope.user = {
     "name": "",
     "password": "",
@@ -87,6 +87,7 @@ controller('registerCtrl', ['$scope',  '$state', '$rootScope', function($scope, 
 
 }]).
 controller('CardsCtrl', ['$scope', '$state', '$rootScope', function($scope,  $state, $rootScope){
+    $rootScope.home = false;
     console.log('cards controller loaded', $rootScope.cards);
 
     $scope.edit = function(card){
@@ -115,6 +116,7 @@ controller('CardsCtrl', ['$scope', '$state', '$rootScope', function($scope,  $st
   }
 ]).
 controller('addNotesCtrl', ['$scope', '$state', '$rootScope', function($scope, $state, $rootScope){
+    $rootScope.home = false;
     console.log("addNotesCtrl loaded", $rootScope.cards);
     $scope.user = {
       "id":'',
@@ -133,6 +135,7 @@ controller('addNotesCtrl', ['$scope', '$state', '$rootScope', function($scope, $
 
 ]).
 controller('editNotesCtrl', ['$scope', '$state', '$rootScope', '$stateParams', function($scope, $state, $rootScope, $stateParams){
+    $rootScope.home = false;
     console.log("editNotesCtrl loaded", $state.params.id);
     console.log("editNotesCtrl loaded", $state.params.title);
     console.log("editNotesCtrl loaded", $state.params.description);
@@ -152,11 +155,6 @@ controller('editNotesCtrl', ['$scope', '$state', '$rootScope', '$stateParams', f
     }
   }
 ]).
-directive('header', function(){
-  return{
-    template:''
-  }
-}).
 config(['$locationProvider', '$stateProvider', function($locationProvider, $stateProvider) {
   $locationProvider.hashPrefix('!');
 
