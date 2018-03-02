@@ -1,0 +1,26 @@
+<div ng-controller="addNotesCtrl" layout="column" layout-padding ng-cloak>
+  <md-toolbar md-scroll-shrink>
+    <div class="md-toolbar-tools">
+       <h3>
+         <span>Add Notes</span>
+       </h3>
+    </div>
+  </md-toolbar>
+
+  <md-content class="md-no-momentum">
+    <md-input-container class="md-icon-float md-block">
+      <!-- Use floating label instead of placeholder -->
+      <label>Title</label>
+      <input ng-model="user.title" type="text">
+    </md-input-container>
+
+    <md-input-container md-no-float class="md-block">
+      <label>Description</label>
+      <textarea ng-model="user.description" required md-maxlength="150" type="text"> </textarea>
+    </md-input-container>
+
+    <md-button class="md-raised md-primary" ng-click="save()">Save</md-button>
+
+  </md-content>
+
+</div>

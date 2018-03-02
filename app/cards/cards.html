@@ -1,0 +1,35 @@
+<ui-view></ui-view>
+
+<div ng-controller="loginCtrl" ng-cloak>
+  <md-toolbar md-scroll-shrink>
+    <div class="md-toolbar-tools">
+       <h3>
+         <span>Notes</span>
+       </h3>
+    </div>
+  </md-toolbar>
+
+  <md-content class="md-padding" layout-xs="column" layout="row">
+    <div flex-xs flex-gt-xs="25" layout="column">
+      <md-card ng-repeat="card in cards">
+        <md-card-title>
+          <md-card-title-text>
+            <span class="md-headline">{{card.id}} {{card.title}}</span>
+          </md-card-title-text>
+        </md-card-title>
+        <md-card-content>
+          <p>
+            {{card.description}}
+          </p>
+        </md-card-content>
+        <md-card-actions layout="row" layout-align="end center">
+          <md-button class="md-raised md-primary" ng-click="edit(card)">Edit</md-button>
+          <md-button class="md-raised md-warn" ng-click="delete(card.id)">Delete</md-button>
+        </md-card-actions>
+      </md-card>
+    </div>
+  </md-content>
+
+  <md-button class="md-raised md-primary" ng-click="addNotes()">Add</md-button>
+
+</div>
