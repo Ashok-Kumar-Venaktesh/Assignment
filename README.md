@@ -73,7 +73,7 @@ Then you can start your own development web server to serve static files from a 
 http-server -a localhost -p 8000
 ```
 ## Screenshots
-![alt text](http://lorempixel.com/400/200/)
+![alt text](/screenshots/image.jpg)
 
 
 ## Contact
