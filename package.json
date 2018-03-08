@@ -1,9 +1,9 @@
 {
-    "name": "Assignment",
+    "name": "Note App",
     "private": true,
     "version": "0.0.0",
     "description": "Note APP",
-    "repository": "https://github.com/Ashok-Kumar-Venaktesh/Assignment.git",
+    "repository": "https://github.com/Ashok-Kumar-Venaktesh/Note-APP.git",
     "license": "MIT",
     "devDependencies": {
         "bower": "^1.7.7",
