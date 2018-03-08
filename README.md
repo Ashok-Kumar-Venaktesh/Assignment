@@ -72,6 +72,8 @@ Then you can start your own development web server to serve static files from a 
 ```
 http-server -a localhost -p 8000
 ```
+## Screenshots
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
 
 
 ## Contact
