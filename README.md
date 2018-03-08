@@ -74,7 +74,7 @@ http-server -a localhost -p 8000
 ```
 ## Screenshots
 ### Home Page
-![alt text](/screenshots/home.jpg)
+![alt text](/screenshots/home.png)
 
 
 ## Contact
