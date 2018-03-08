@@ -52,6 +52,7 @@ controller('loginCtrl', ['$scope',  '$state', '$rootScope', function($scope,  $s
   }
 
   $scope.login = function(){
+    console.log($rootScope.USERNAME, $rootScope.PASSWORD);
     if ($scope.user.name == $rootScope.USERNAME && $scope.user.password == $rootScope.PASSWORD){
       console.log("Login successful");
       $state.go('cards');
