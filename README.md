@@ -1,4 +1,4 @@
-# `Note App` — the tool for reminders
+# `Note App` — A tool for reminders
 
 ## Getting Started
 
