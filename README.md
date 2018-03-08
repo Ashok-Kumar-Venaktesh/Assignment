@@ -1,28 +1,18 @@
-# `angular-seed` — the seed for AngularJS apps
-
-This project is an application skeleton for a typical [AngularJS][angularjs] web app. You can use it
-to quickly bootstrap your angular webapp projects and dev environment for these projects.
-
-The seed contains a sample AngularJS application and is preconfigured to install the Angular
-framework and a bunch of development and testing tools for instant web development gratification.
-
-The seed app doesn't do much, just shows how to wire two controllers and views together.
-
+# `Note App` — the tool for reminders
 
 ## Getting Started
 
-To get you started you can simply clone the `angular-seed` repository and install the dependencies:
+To get you started you can simply clone the `Note App` repository and install the dependencies:
 
 ### Prerequisites
 
-You need git to clone the `angular-seed` repository. You can get git from [here][git].
+You need git to clone the `Note-App` repository. You can get git from [here][git].
 
-We also use a number of Node.js tools to initialize and test `angular-seed`. You must have Node.js
-and its package manager (npm) installed. You can get them from [here][node].
+You must have Node.js and its package manager (npm) installed. You can get them from [here][node].
 
-### Clone `angular-seed`
+### Clone `Note-App`
 
-Clone the `angular-seed` repository using git:
+Clone the `Note-App` repository using git:
 
 ```
 git clone https://github.com/angular/angular-seed.git
