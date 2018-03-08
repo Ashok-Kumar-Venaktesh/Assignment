@@ -75,9 +75,16 @@ http-server -a localhost -p 8000
 ## Screenshots
 ### Home Page
 ![alt text](/screenshots/home.PNG)
-### Home Page2 
-![alt text](/screenshots/image.jpg)
-
+### Log in Page
+![alt text](/screenshots/login.PNG)
+### Sign UP Page
+![alt text](/screenshots/sign up.PNG)
+### Notes View
+![alt text](/screenshots/notes list.PNG)
+### Edit Note
+![alt text](/screenshots/edit note.PNG)
+### Add Note
+![alt text](/screenshots/add note.PNG)
 
 ## Contact
 
