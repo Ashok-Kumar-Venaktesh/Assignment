@@ -78,13 +78,13 @@ http-server -a localhost -p 8000
 ### Log in Page
 ![alt text](/screenshots/login.PNG)
 ### Sign UP Page
-![alt text](/screenshots/sign up.PNG)
+![alt text](/screenshots/register.PNG)
 ### Notes View
-![alt text](/screenshots/notes list.PNG)
+![alt text](/screenshots/list.PNG)
 ### Edit Note
-![alt text](/screenshots/edit note.PNG)
+![alt text](/screenshots/edit.PNG)
 ### Add Note
-![alt text](/screenshots/add note.PNG)
+![alt text](/screenshots/add.PNG)
 
 ## Contact
 
