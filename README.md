@@ -1,3 +1,19 @@
+
+## Screenshots
+### Home Page
+![alt text](/screenshots/home.PNG)
+### Log in Page
+![alt text](/screenshots/login.PNG)
+### Sign UP Page
+![alt text](/screenshots/register.PNG)
+### Notes View
+![alt text](/screenshots/list.PNG)
+### Edit Note
+![alt text](/screenshots/edit.PNG)
+### Add Note
+![alt text](/screenshots/add.PNG)
+
+
 # `Note App` — A tool for reminders
 
 ## Getting Started
@@ -72,20 +88,6 @@ Then you can start your own development web server to serve static files from a 
 ```
 http-server -a localhost -p 8000
 ```
-## Screenshots
-### Home Page
-![alt text](/screenshots/home.PNG)
-### Log in Page
-![alt text](/screenshots/login.PNG)
-### Sign UP Page
-![alt text](/screenshots/register.PNG)
-### Notes View
-![alt text](/screenshots/list.PNG)
-### Edit Note
-![alt text](/screenshots/edit.PNG)
-### Add Note
-![alt text](/screenshots/add.PNG)
-
 ## Contact
 
 For more information on AngularJS please check out [angularjs.org][angularjs].
